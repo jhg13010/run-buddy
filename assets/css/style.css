@@ -119,3 +119,68 @@ h3 {
     font-size: 16px;
 }
 /* hero styles end */
+
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+
+.primary-border {
+    border-color: #fce138
+}
+
+.secondary-border {
+    border-color: #39a6b2
+}
+
+/*What we do*/
+.intro {
+    text-align: center;
+}
+
+.intro p {
+    margin: 0 auto;
+    line-height: 1.7;
+    color:#39a6b2;
+    width: 80x;
+    font-size: 20px;
+}
+
+/*What We Do*/
+.steps {
+    background-color: #fce138;
+    text-align: center;
+}
+
+.steps div {
+    margin-bottom: 80px;
+}
+
+.steps h3 {
+    font-size: 46px;
+    color: #024e76;
+    margin-top: 10px;
+}
+
+.steps img {
+    width: 15%;
+    margin: 10px 0;
+}
+
+.steps p {
+    color: #39a6b2;
+    font-size: 23px;
+}
+
+.steps span{
+    font-size: 38px
+}
+
+/*Meet The Trainers*/ 
+.trainers {
+    text-align: center;
+}
