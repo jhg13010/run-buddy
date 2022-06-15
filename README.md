@@ -13,3 +13,5 @@ https://jhg13010.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Jarrett
+
+### &copy2019 Run Buddy, Inc
