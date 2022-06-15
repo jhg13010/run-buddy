@@ -11,5 +11,7 @@ A website that offers fitness training services
 ## Website
 https://jhg13010.github.io/run-buddy/
 
-## Contribution
+## Contributions
 Made with ❤️ by Jarrett
+
+### &copy2019 Run Buddy, Inc
