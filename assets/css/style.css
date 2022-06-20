@@ -9,6 +9,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+/*header*/
 header {
     padding: 20px 35px; /*defines spacing around content*/
     background-color: #39a6b2;
@@ -47,6 +48,7 @@ header nav ul li a {
     font-size: 1.55vw;
 }
 
+/*footer*/
 footer {
     background: #fce138;
     width: 100%;
@@ -75,6 +77,7 @@ section {
     padding: 60px;    
 }
 
+/*hero*/
 .hero {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
@@ -112,6 +115,7 @@ section {
     margin: 5px 0 15px 0;
 }
 
+/*hero form*/
 .form-input {
     border: 1px solid #024e76;
     display: block;
@@ -140,13 +144,17 @@ h3 {
 }
 /* hero styles end */
 
+
+/*general sections*/
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
+    margin: 0 auto 35px auto;
     padding: 0 100px 20px 100px;
     display: inline-block;
     border-bottom: 3px solid;
+    text-align: center;
+    width: 50%;
 }
 
 .primary-border {
@@ -155,6 +163,10 @@ h3 {
 
 .secondary-border {
     border-color: #39a6b2
+}
+
+.flex-row {
+    display: flex;
 }
 
 /*What we do*/
@@ -168,6 +180,7 @@ h3 {
     color:#39a6b2;
     width: 80x;
     font-size: 20px;
+    text-align: center;
 }
 
 /*What We Do*/
@@ -176,28 +189,52 @@ h3 {
     text-align: center;
 }
 
-.steps div {
-    margin-bottom: 80px;
+.step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.steps h3 {
+.step-info {
+    display: flex;
+    flex: 2 70%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.step-img {
+    flex 1 12%;
+    margin-right: 20px;
+}
+
+.step-img img {
+    max-width: 100%;
+}
+
+.step-text {
+    flex: 12;
+}
+
+.step h3 {
     font-size: 46px;
     color: #024e76;
-    margin-top: 10px;
+    flex: 1 30%;
 }
 
-.steps img {
-    width: 15%;
-    margin: 10px 0;
+.step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color:#024e76;
 }
 
 .steps p {
     color: #39a6b2;
     font-size: 23px;
-}
-
-.steps span{
-    font-size: 38px
 }
 
 /*Meet The Trainers*/ 
